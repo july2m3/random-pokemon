@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #333;
+  color: azure;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 20px;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 2 rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.name {
+  display: block;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+}
+
+img {
+  width: 20vw;
+  height: auto;
+}
+
+button {
+  padding: 1rem 2rem;
+  background-color: #fff;
+  display: block;
+  margin: 0 auto;
+}
