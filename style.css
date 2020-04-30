@@ -45,4 +45,5 @@ button {
   background-color: #fff;
   display: block;
   margin: 0 auto;
+  border-radius: 5px;
 }
