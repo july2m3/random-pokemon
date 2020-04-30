@@ -4,6 +4,12 @@ the pokemon api
   https://pokeapi.co/docs/v2.html/
 */
 
+const checkForSpaceKey = (e) => {
+  if (e.code === 'Space') {
+    getRandomPokemon();
+  }
+};
+
 const getRandomPokemon = () => {
   let random = Math.floor(Math.random() * 800);
   fetch(`https://pokeapi.co/api/v2/pokemon/${random}/`)
@@ -22,3 +28,5 @@ window.addEventListener('load', getRandomPokemon());
 
 const button = document.querySelector('button');
 button.addEventListener('click', getRandomPokemon);
+
+window.document.addEventListener('keydown', checkForSpaceKey);
